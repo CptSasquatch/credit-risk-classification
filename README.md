@@ -7,9 +7,9 @@ The purpose of this analysis is to use machine learning to predict credit risk. 
 The machine learning process used in this analysis includes the following steps:
 
 1. Preprocessing the data
-2. Splitting the data into training and testing sets
+2. Splitting the data into training and testing sets using the `train_test_split` method
 3. Using the `LogisticRegression` algorithm to create a logistic regression classifier
-4. Using the `RandomForestClassifier` algorithm to create a random forest classifier
+4. Using the `RandomOverSampler` module to resample the training data
 5. Evaluating the performance of the machine learning models
 
 ## Results
